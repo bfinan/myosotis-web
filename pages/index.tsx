@@ -17,16 +17,37 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.description}>
-          <p>
-            Get stoopped by editing&nbsp;
-            <code className={styles.code}>pages/index.tsx</code>
-          </p>
-        </div>
+
 
         <h1>Myosotis</h1>
 
-        
+        <h2>PKM tools</h2>
+
+        <div className={styles.grid}>
+          <Link href="/tools/pacer">Pacer</Link>
+          <Link href="/tools/intake">Intake</Link>
+          <Link href="/log">Log</Link>
+          <Link href="/services">Services</Link>
+        </div>
+
+        <br></br>
+        <div className={styles.description}>
+          <p>
+            Last UVI: 2023-03-30
+          </p>
+        </div>
+        <div className={styles.description}>
+          <p>
+          🔥 Current UVI streak: 1 
+          </p>
+        </div>
+
+        <div className={styles.description}>
+          <p>
+          Longest UVI streak: 1
+          </p>
+        </div>
+
 
         <div className={styles.grid}>
           <a
