@@ -28,23 +28,24 @@ export default function Home() {
           <Link href="/tools/intake">Intake</Link>
           <Link href="/log">Log</Link>
           <Link href="/services">Services</Link>
+
         </div>
 
         <br></br>
         <div className={styles.description}>
           <p>
-            Last UVI: 2023-03-30
+            Last UVI: 2023-03-31
           </p>
         </div>
         <div className={styles.description}>
           <p>
-          🔥 Current UVI streak: 1 
+          🔥 Current UVI streak: 2 
           </p>
         </div>
 
         <div className={styles.description}>
           <p>
-          Longest UVI streak: 1
+          Longest UVI streak: 2
           </p>
         </div>
 
