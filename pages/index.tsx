@@ -27,7 +27,7 @@ export default function Home() {
           <Link href="/tools/pacer">Pacer</Link>
           <Link href="/tools/intake">Intake</Link>
           <Link href="/log">Log</Link>
-          <Link href="/games/tictactoe">Tic Tac Toe</Link>
+          <Link href="/games/tic-tac-toe">Tic Tac Toe</Link>
 
 
         </div>
