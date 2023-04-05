@@ -1,11 +1,11 @@
 import Link from 'next/link';
 
-export default function LogIndex() {
+export default function FirstPost() {
   return (
     <>
       <h2>
         <Link href="/">Back to home</Link> <br></br>
-        <Link href="/log/first-post">First Post</Link>
+        <Link href="/games/tic-tac-toe">Tic Tac Toe </Link>
       </h2>
     </>
   );
