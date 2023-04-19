@@ -28,6 +28,7 @@ export default function Home() {
           <Link href="/tools/intake">Intake</Link>
           <Link href="/log">Log</Link>
           <Link href="/games/tic-tac-toe">Tic Tac Toe</Link>
+          <Link href="/wikibump">Wikibump</Link>
 
 
         </div>
