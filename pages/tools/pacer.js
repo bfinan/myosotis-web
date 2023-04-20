@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Readout } from 'web/components/time/readout'
 
 function timerStartStop() {
   console.log('beep')
@@ -16,7 +17,9 @@ export default function FirstPost() {
       <h2>
         <Link href="/">Back to home</Link>
       </h2>
-
+      <h2>
+        Time remaining: <Readout></Readout>
+      </h2>
       <h3>Title</h3><br></br>
       <input></input><br></br>
       starting location 
