@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import bumplink, { BumpLink } from './bumplink'
+import bumplink, { BumpLink } from 'web/components/bumplink'
 
 
 export default function WikibumpPage() {
