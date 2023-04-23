@@ -12,7 +12,6 @@ export function BumpLink(props: {
     <div>
       <div className="relative flex items-center">
         <div className="ml-3">
-          {/* text should be purple */}
           <label htmlFor={title} className={clsx(
         'text-primary-700 mb-4 inline-block text-2xl font-normal sm:mb-6 sm:text-3xl sm:font-normal',
         className

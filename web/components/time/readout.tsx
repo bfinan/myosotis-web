@@ -2,11 +2,19 @@ import clsx from 'clsx'
 
 {/* a timer readout primarily designed for myosotis pacer */}
 
-export function Readout(props: {
-    className?:string;
+export function decrementTime(seconds:number) {
+  //decrement this component's seconds by 1
 
-    seconds:number
+}
 
+
+export function Readout({ props }: {
+  props: {
+    className?: string;
+
+    seconds: number;
+
+  };
 }) {
   const {className, seconds} = props
 
