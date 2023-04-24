@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Readout } from "web/components/time/readout";
 import { Button } from 'web/components/buttons/button';
 import { useState, useEffect } from "react";
 
@@ -23,7 +22,7 @@ export default function FirstPost() {
         <Link href="/">Back to home</Link>
       </h2>
       <h2>
-        Time remaining: <Readout seconds={120}></Readout>
+
       </h2>
       <h3>Title:</h3>
       <input></input>
