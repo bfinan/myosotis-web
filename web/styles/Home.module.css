@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
-  min-height: 100vh;
+  min-height: 20vh;
 }
 
 .description {
@@ -44,6 +44,8 @@
   grid-template-columns: repeat(4, minmax(25%, auto));
   width: var(--max-width);
   max-width: 100%;
+  min-width: 30%;
+  min-height: 10vh;
 }
 
 .card {

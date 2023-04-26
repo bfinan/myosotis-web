@@ -30,25 +30,6 @@ export default function Home() {
           <Link href="/games/tic-tac-toe">Tic Tac Toe</Link>
           <Link href="/wikibump">Wikibump</Link>
 
-
-        </div>
-
-        <br></br>
-        <div className={styles.description}>
-          <p>
-            Last UVI: 2023-04-04
-          </p>
-        </div>
-        <div className={styles.description}>
-          <p>
-          🔥 Current UVI streak: 1 
-          </p>
-        </div>
-
-        <div className={styles.description}>
-          <p>
-          Longest UVI streak: 2
-          </p>
         </div>
 
 
