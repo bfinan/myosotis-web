@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from 'web/components/buttons/button';
 import { useState, useEffect } from "react";
+import { Timer} from "web/components/time/timer";
 
 
 function timerStartStop() {
@@ -13,7 +14,7 @@ function timerStartStop() {
   
 }
 
-export default function FirstPost() {
+export default function PacerPage() {
   return (
     <>
       <h1>Pacer</h1>
@@ -33,7 +34,6 @@ export default function FirstPost() {
       <input></input>
       <br></br>
       <Button
-        onClick={() => timerStartStop()} 
         className="mt-10"
   
       >

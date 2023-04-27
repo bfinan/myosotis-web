@@ -127,10 +127,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-mana_3:before {
-  content: '\1e40';
-}
-
 /* For Webkit-inkd browsers (Chrome, Safari and Opera) */
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
@@ -141,3 +137,8 @@
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+/*
+body {
+  background-color: rgb(8, 4, 15);
+}
+*/
