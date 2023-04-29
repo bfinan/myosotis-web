@@ -1,7 +1,7 @@
-import Link from "next/link";
-import { Button } from 'web/components/buttons/button';
-import { useState, useEffect } from "react";
-import { Timer} from "web/components/time/timer";
+import Link from "next/link"
+import clsx from 'clsx'
+import { useState, useEffect } from "react"
+//import { Button, buttonClass } from 'src/components/buttons/button'
 
 
 function timerStartStop() {
@@ -33,12 +33,27 @@ export default function PacerPage() {
       End location: 
       <input></input>
       <br></br>
-      <Button
+      <button
         className="mt-10"
-  
+        color="primary"
       >
         Start
-      </Button>
+      </button>
     </>
   );
+}
+
+const WAIT_TIME = 15 
+
+const TimerBar = (props: {duration: number}) => {
+  const {duration} = props
+
+  return (
+    <div>
+      <div 
+      className="animate-progress bg-canvas-100"
+      style={{animationDuration: `${duration}s`}}
+      />
+    </div>
+  )
 }
