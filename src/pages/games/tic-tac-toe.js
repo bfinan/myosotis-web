@@ -1,62 +1,45 @@
 import Link from 'next/link';
 import React from 'react';
+import {useState} from 'react';
 
-function Square(props) {
-  return (
-    <button className="square" onClick={props.onClick} >
-      {props.value}
+function Square({value, onSquareClick}) {
+  function handleClick(){
+  }
+  return ( 
+    <button 
+    className="square"
+    onClick={onSquareClick}
+    >
+      {value}
     </button>
   )
 }
   
-  class Board extends React.Component {
-    constructor(props){
-      super(props);
-      this.state = {
-        squares: Array(9).fill(null),
-      };
-    }
-
-    handleClick(i){
-      const squares = this.state.squares.slice();
-      squares[i] = 'X';
-      this.setState({squares: squares});
-    }
-
-    renderSquare(i) {
-      return (
-        <Square 
-        value={this.state.squares[i]} 
-        onClick={() => this.handleClick(i)}
-        />
-      );
-    }
+function Board() {
+    const [squares, setSquares] = useState(Array(9).fill(null));
   
-    render() {
-      const status = 'Next player: X';
-  
-      return (
-        <div>
-          <div className="status">{status}</div>
-          <div className="board-row">
-            {this.renderSquare(0)}
-            {this.renderSquare(1)}
-            {this.renderSquare(2)}
-          </div>
-          <div className="board-row">
-            {this.renderSquare(3)}
-            {this.renderSquare(4)}
-            {this.renderSquare(5)}
-          </div>
-          <div className="board-row">
-            {this.renderSquare(6)}
-            {this.renderSquare(7)}
-            {this.renderSquare(8)}
-          </div>
+    return (
+      <>
+      <div>
+        <div className="board-row">
+          <Square value={squares[0]} />
+          <Square value={squares[1]} />
+          <Square value={squares[2]} />
         </div>
-      );
-    }
-  }
+        <div className="board-row">
+        <Square value={squares[3]} />
+        <Square value={squares[4]} />
+        <Square value={squares[5]} />
+        </div>
+        <div className="board-row">
+        <Square value={squares[6]} />
+        <Square value={squares[7]} />
+        <Square value={squares[8]} />
+        </div>
+      </div>
+      </>
+    );
+}
   
   class Game extends React.Component {
     render() {
@@ -72,7 +55,7 @@ function Square(props) {
 
           <div>
           <br></br>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/T9lGlbTMOXg?start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="200" height="100" src="https://www.youtube.com/embed/T9lGlbTMOXg?start=4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           </div>
         </div>
         
