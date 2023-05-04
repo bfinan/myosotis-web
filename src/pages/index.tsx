@@ -29,6 +29,7 @@ export default function Home() {
           <Link href="/log">Log</Link>
           <Link href="/games/tic-tac-toe">Tic Tac Toe</Link>
           <Link href="/wikibump">Wikibump</Link>
+          <Link href="https://github.com/bfinan/myosotis">Project Github</Link>
 
         </div>
 

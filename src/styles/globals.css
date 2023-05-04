@@ -172,8 +172,10 @@
   margin-left: 20px;
 }
 
-/*
+
 body {
-  background-color: rgb(8, 4, 15);
+  background-color: #0f0d17;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
 }
-*/
