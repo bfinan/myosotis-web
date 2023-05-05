@@ -172,6 +172,16 @@
   margin-left: 20px;
 }
 
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+}
 
 body {
   background-color: #0f0d17;

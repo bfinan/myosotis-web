@@ -46,7 +46,10 @@
   width: var(--max-width);
   max-width: 100%;
   min-width: 30%;
-  min-height: 10vh;
+  min-height: 20vh;
+  margin-bottom: 240px;
+  gap: 2rem;
+  
 }
 
 .card {
