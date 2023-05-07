@@ -15,6 +15,8 @@ export default function WikibumpPage() {
         <Link href="/">Back to home</Link> <br></br>
         <BumpLink title="Running" wikititle='https://www.wikipedia.org/wiki/Running'></BumpLink>
         <BumpLink title="Boston Marathon" wikititle='https://www.wikipedia.org/wiki/Boston_Marathon'></BumpLink>
+        <BumpLink title="Datepicker" wikititle='https://www.wikidata.org/wiki/Q25345907'></BumpLink>
+        
 
       </h2>
     </>
