@@ -21,19 +21,28 @@ export default function Home() {
 
         <h1>Myosotis</h1>
 
+        <h2><Link href="/wikibump">Wikibump</Link> </h2>
+
         <h2>PKM tools</h2>
 
         <div className={styles.grid}>
           <Link href="/tools/pacer">Pacer</Link>
           <Link href="/tools/intake">Intake</Link>
-          <Link href="/log">Log</Link>
-          <Link href="/games/tic-tac-toe">Tic Tac Toe</Link>
-          <Link href="/wikibump">Wikibump</Link>
-          <Link href="https://github.com/bfinan/myosotis">Project Github</Link>
+
 
         </div>
 
+        <h2>Other</h2>
+        <div className={styles.grid}>
+        <Link href="/games/tic-tac-toe">Tic Tac Toe</Link>
+        <Link href="/log">Log</Link>
+        <Link href="https://github.com/bfinan/myosotis">Github</Link>
+        </div>
+
+
+
       </main>
+      <button className="hmm">Log in</button>
     </>
   )
 }

@@ -149,9 +149,10 @@
   height: 68px;
   margin-right: -1px;
   margin-top: -1px;
-  padding: 0;
+  padding: 20;
   text-align: center;
   width: 68px;
+
 }
 
 .board-row:after {
@@ -183,9 +184,13 @@
     ". . .";
 }
 
+
+
+
 body {
   background-color: #0f0d17;
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
 }
+
