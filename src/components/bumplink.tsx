@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import clsx from 'clsx'
 
+
 export function BumpLink(props: {
     className?:string
     title:string
@@ -17,6 +18,7 @@ export function BumpLink(props: {
         className
       )}>
             <Link href={wikititle}>{title}</Link>
+
           </label>
         </div>
       </div>

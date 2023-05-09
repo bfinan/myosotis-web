@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { BumpLink } from 'src/components/bumplink'
-
+import { Button } from 'src/components/buttons/button'
 import { createClient } from '@supabase/supabase-js'
 
 // Create a single supabase client for interacting with your database
@@ -12,13 +12,17 @@ export default function WikibumpPage() {
   return (
     <>
       <h2>
-        <Link href="/">Back to home</Link> <br></br>
+        <Link href="/"  >Back to home</Link> <br></br>
         <BumpLink title="Running" wikititle='https://www.wikipedia.org/wiki/Running'></BumpLink>
         <BumpLink title="Boston Marathon" wikititle='https://www.wikipedia.org/wiki/Boston_Marathon'></BumpLink>
         <BumpLink title="Datepicker" wikititle='https://www.wikidata.org/wiki/Q25345907'></BumpLink>
         
 
       </h2>
+
+      <input ></input>
+
+      <Button>Submit</Button>
     </>
   );
 }
