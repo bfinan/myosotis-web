@@ -37,6 +37,9 @@ export default function Home() {
         <Link href="/games/tic-tac-toe">Tic Tac Toe</Link>
         <Link href="/log">Log</Link>
         <Link href="https://github.com/bfinan/myosotis">Github</Link>
+        <Link href="https://pkm.social/@myosotis">Mastodon</Link>
+        <Link href="https://twitter.com/myosotis_pkm">Twitter</Link>
+
         </div>
 
 
