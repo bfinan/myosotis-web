@@ -29,13 +29,11 @@ export default function Home() {
           <Link href="/tools/pacer">Pacer</Link>
           <Link href="/tools/intake">Intake</Link>
 
-
         </div>
 
         <h2>Other</h2>
         <div className={styles.grid}>
-        <Link href="/games/tic-tac-toe">Tic Tac Toe</Link>
-        <Link href="/log">Log</Link>
+        <Link href="/log">Blog</Link>
         <Link href="https://github.com/bfinan/myosotis">Github</Link>
         <Link href="https://pkm.social/@myosotis">Mastodon</Link>
         <Link href="https://twitter.com/myosotis_pkm">Twitter</Link>
