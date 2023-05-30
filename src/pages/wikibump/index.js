@@ -11,6 +11,13 @@ const supabase = createClient('https://dlwuvzvlhxguzprtnopf.supabase.co', 'eyJhb
 export default function WikibumpPage() {
   return (
     <>
+      <div>🚧 UNDER CONSTRUCTION 🚧</div>
+      <h1>Wikibump</h1>
+      <p>
+        Wikibump is a proposed tool for bumping the names of entities, specifically named articles in the English Wikipedia.
+        Apologies in advance because I am not good at CSS
+        -- Brendan
+      </p>
       <h2>
         <Link href="/"  >Back to home</Link> <br></br>
         <BumpLink title="Running" wikititle='https://www.wikipedia.org/wiki/Running'></BumpLink>
