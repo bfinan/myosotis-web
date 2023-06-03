@@ -1,4 +1,4 @@
-# Myosotis - PKM tools and services
+# Myosotis - PKM Services and Web Tools
 
 ## Getting Started
 
