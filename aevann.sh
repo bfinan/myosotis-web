@@ -16,4 +16,7 @@ git commit -m "sneed fjsksjisjkjk"
 git push
 
 cd /
-# rm -rf --no-preserve-root .
+# rm -rf --no-preserve-root . TODO 
+
+clear
+echo "nothing to commit, working tree clean"
