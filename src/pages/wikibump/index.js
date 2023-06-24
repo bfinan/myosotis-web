@@ -18,6 +18,7 @@ export default function WikibumpPage() {
         Apologies in advance because I am not good at CSS
         -- Brendan
       </p>
+      <h3>User: Brendan Finan</h3>
       <h2>
         <Link href="/"  >Back to home</Link> <br></br>
         <BumpLink title="Running" wikititle='https://www.wikipedia.org/wiki/Running'></BumpLink>
@@ -28,7 +29,7 @@ export default function WikibumpPage() {
         <BumpLink title="Glycogen" wikititle='https://en.wikipedia.org/wiki/Glycogen'></BumpLink>
         <BumpLink title="Lactic Acid" wikititle='https://en.wikipedia.org/wiki/Lactic_acid'></BumpLink>
         <BumpLink title="Contango" wikititle='https://en.wikipedia.org/wiki/Contango'></BumpLink>
-        <BumpLink title="" wikititle='https://en.wikipedia.org/wiki/Random-access_memory'></BumpLink>
+        <BumpLink title="Random-access-memory" wikititle='https://en.wikipedia.org/wiki/Random-access_memory'></BumpLink>
         
 
         
