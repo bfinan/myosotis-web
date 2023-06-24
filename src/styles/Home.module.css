@@ -4,8 +4,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  min-height: 20vh;
+  padding: 5rem;
+  min-height: 15vh;
 }
 
 .description {
@@ -46,7 +46,7 @@
   width: var(--max-width);
   max-width: 100%;
   min-width: 30%;
-  min-height: 20vh;
+  min-height: 5vh;
   margin-bottom: 240px;
   gap: 2rem;
   
