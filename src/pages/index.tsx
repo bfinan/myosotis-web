@@ -46,7 +46,7 @@ export default function Home() {
         <Link href="https://medium.com/@brendanfinan">Medium 🌱</Link>
         <Link href="https://twitter.com/myosotis_pkm">Twitter 🐦 </Link>
         <Link href="https://pkm.social/@myosotis">Masto 🐘</Link>
-        <Link href="501">Discord </Link>
+        <Link href="https://discord.gg/nf3gS677">Discord 🎙️</Link>
         </div>
 
 
