@@ -5,7 +5,7 @@ export default function LogIndex() {
     <>
       <h2>
         <Link href="/">Back to home</Link> <br></br>
-        <Link href="/log/first-post">First Post</Link>
+        <Link href="/log/keep-receipts">Keep Receipts</Link>
       </h2>
     </>
   );

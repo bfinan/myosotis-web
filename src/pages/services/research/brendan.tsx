@@ -21,7 +21,7 @@ export default function Brendan() {
             <a href="https://DSMell.org">DSMell.org: Diagnosing that smell in Des Moines, IA</a>
       </li>
         <li>
-            <a href="https://www.medium.com/@brendanfinan">Medium</a>
+            <a href="https://www.medium.com/@brendanfinan">Medium.com blog: Writing about Programmable Attention and Myosotis</a>
         </li>
         <h3> Hire Me</h3>
 
