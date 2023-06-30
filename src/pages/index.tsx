@@ -23,8 +23,9 @@ export default function Home() {
 
         <h2>PKM Services</h2>
         <div className={styles.grid}>
+        <Link href="/services/research">Research</Link>
           <Link href="/services/edit">Editing</Link>
-          <Link href="/services/research">Research</Link>
+          <Link href="/services/forecast">Forecasting</Link>
         </div>
 
         <h2>PKM Tools</h2>
