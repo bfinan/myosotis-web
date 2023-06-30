@@ -17,6 +17,8 @@ function timerStartStop() {
 export default function PacerPage() {
   return (
     <>
+      <div>🚧 UNDER CONSTRUCTION 🚧</div>
+
       <h1>Pacer</h1>
       <h2>
         <Link href="/">Back to home</Link>

@@ -6,12 +6,22 @@ import Link from 'next/link';
 export default function FirstPost() {
   return (
     <>
-      <h1>Intake</h1>
+      <h1>PPKMDB Registry</h1>
       <h2>
         <Link href="/">Back to home</Link>
       </h2>
 
-
+      <table>
+        <tr>
+          <th>Person</th>
+          <th>Database</th>
+          <th>Link</th>
+          <th>Size (S/M/L)</th>
+          <th>Subject</th>
+        </tr>
+        <tr>
+        </tr>
+      </table>
     </>
   );
 }
