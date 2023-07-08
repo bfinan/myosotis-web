@@ -27,7 +27,7 @@ export default function WikibumpPage() {
         <BumpLink title="Prediction Market" wikititle='https://www.wikipedia.org/wiki/Prediction_Market'></BumpLink>
         <BumpLink title="Gastrocnemius Muscle" wikititle='https://www.wikidata.org/wiki/Q943203'></BumpLink>
         <BumpLink title="Glycogen" wikititle='https://en.wikipedia.org/wiki/Glycogen'></BumpLink>
-        <BumpLink title="Lactic Acid" wikititle='https://en.wikipedia.org/wiki/Lactic_acid'></BumpLink>
+        <BumpLink title="Lactic-Acid" wikititle='https://en.wikipedia.org/wiki/Lactic_acid'></BumpLink>
         <BumpLink title="Contango" wikititle='https://en.wikipedia.org/wiki/Contango'></BumpLink>
         <BumpLink title="Random-access-memory" wikititle='https://en.wikipedia.org/wiki/Random-access_memory'></BumpLink>
         
