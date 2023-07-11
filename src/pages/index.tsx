@@ -28,16 +28,6 @@ export default function Home() {
           <Link href="/services/forecast">Forecasting</Link>
         </div>
 
-        <h2>PKM Tools</h2>
-
-        <div className={styles.grid}>
-          <Link href="/tools/pacer">Pacer</Link>
-          <Link href="/tools/intake">Intake</Link>
-        </div>
-
-        <div className={styles.grid}>
-        <h2><Link href="/wikibump">Wikibump</Link> </h2>
-        </div>
 
         <h2>Links</h2>
         <br></br>
@@ -50,7 +40,16 @@ export default function Home() {
         <Link href="https://discord.gg/nf3gS677">Discord 🎙️</Link>
         </div>
 
+        <div className={styles.grid}>
+        <h2><Link href="/wikibump">Wikibump</Link> </h2>
+        </div>
 
+        <h2>PKM Web Tools</h2>
+
+        <div className={styles.grid}>
+          <Link href="/tools/pacer">Pacer</Link>
+          <Link href="/tools/intake">Intake</Link>
+        </div>
 
       </main>
     </>
