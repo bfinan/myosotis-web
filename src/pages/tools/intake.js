@@ -13,6 +13,15 @@ export default function FirstPost() {
       </h2>
 
 
+
+      {/* an input and button prompting the user for a date */}
+
+      <input></input> <br></br>
+      <input>
+      </input> <br></br>
+      <button>Submit</button>
+
+
     </>
   );
 }
