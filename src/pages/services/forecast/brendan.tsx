@@ -34,9 +34,8 @@ export default function Brendan() {
 
       I will provide a free forecast on your question, and a few sentences explaining my prediction!
       <a href="mailto://brendanfinan@protonmail.com"> Click here to email me</a> a link to your question.
-      Preference will be given to questions on Manifold Markets, and questions with well-specified resolution criteria.
-
       <br></br>
+      All questions are welcome, but it will be especially helpful to me if you have clearly specified resolution criteria, and if your question is hosted on Manifold Markets.
       <br></br>
 
       <h3> Hire Me</h3>
