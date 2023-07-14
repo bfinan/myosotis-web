@@ -8,17 +8,18 @@ import { useState, useEffect } from "react"
 export default function ResearchPage() {
   return (
     <>
-      <h1>Myosotis Research Services</h1>
+      <h1>Myosotis Forecasting Services</h1>
       <h2>
-        <Link href="/"> Return</Link>
+        <Link href="/">	← Return</Link>
       </h2>
       <h2>
 
       </h2>
       <li>
-        <Link href="/services/research/brendan">Brendan Finan</Link>
+        <Link href="/services/forecast/brendan">Brendan Finan</Link>
       </li>
 
+      <h3> You can join this team! Email info@myosot.is to learn more.</h3>
 
     </>
   );

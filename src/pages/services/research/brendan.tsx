@@ -10,7 +10,7 @@ export default function Brendan() {
     <>
       <h1>Researcher: Brendan Finan</h1>
       <h2>
-        <Link href="/">Return</Link>
+        <Link href="/">	← Return</Link>
       </h2>
       <h2>
     

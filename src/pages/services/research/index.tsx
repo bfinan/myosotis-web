@@ -10,7 +10,7 @@ export default function ResearchPage() {
     <>
       <h1>Myosotis Research Services</h1>
       <h2>
-        <Link href="/"> Return</Link>
+        <Link href="/">	← Return</Link>
       </h2>
       <h2>
 
@@ -19,7 +19,7 @@ export default function ResearchPage() {
         <Link href="/services/research/brendan">Brendan Finan</Link>
       </li>
 
-
+      <h3> You can join this team! Email info@myosot.is to learn more.</h3>
     </>
   );
 }

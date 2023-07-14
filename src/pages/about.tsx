@@ -28,7 +28,7 @@ export default function Home() {
 
 
         <div>
-          <h3>Also, there`s this quote:</h3>
+          <h3>Also, there`s this quote from Franz Kafka:</h3>
           <h2>“I think we ought to read only the kind of books that wound or stab us. 
             If the book we&apos;re reading doesn&apos;t wake us up with a blow to the head,
             what are we reading for? So that it will make us happy, as you write? 
