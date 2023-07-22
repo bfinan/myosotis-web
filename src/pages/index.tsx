@@ -32,12 +32,12 @@ export default function Home() {
         <h2>Links</h2>
         <br></br>
         <div className={styles.grid}>
-        <Link href="/log">Blog 🌸</Link>
+        <Link href="/blog">Blog 🌸</Link>
         <Link href="https://github.com/bfinan/myosotis">Github🛠️</Link>
+        <Link href="https://discord.gg/x4VxTaKKHp">Discord 🎙️</Link>
         <Link href="https://medium.com/@brendanfinan">Medium 🌱</Link>
         <Link href="https://twitter.com/myosotis_pkm">Twitter 🐦 </Link>
         <Link href="https://pkm.social/@myosotis">Masto 🐘</Link>
-        <Link href="https://discord.gg/nf3gS677">Discord 🎙️</Link>
         </div>
 
         <div className={styles.grid}>
