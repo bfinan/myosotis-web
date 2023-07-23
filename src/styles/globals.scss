@@ -63,8 +63,6 @@
     ". . .";
 }
 
-
-
 body {
   background-color: #0f0d17;
   color: #fff;
@@ -109,4 +107,8 @@ button {
   font-size: 1rem;
   padding: 0.8rem;
   align-items: center;
+}
+
+p {
+  white-space: pre;
 }
