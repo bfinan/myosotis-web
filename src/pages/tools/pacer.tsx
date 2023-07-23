@@ -17,8 +17,6 @@ function timerStartStop() {
 export default function PacerPage() {
   return (
     <>
-      <div>🚧 UNDER CONSTRUCTION 🚧</div>
-
       <h1>Pacer</h1>
       <h2>
         <Link href="/">Back to home</Link>
@@ -45,17 +43,3 @@ export default function PacerPage() {
   );
 }
 
-const WAIT_TIME = 15 
-
-const TimerBar = (props: {duration: number}) => {
-  const {duration} = props
-
-  return (
-    <div>
-      <div 
-      className="animate-progress bg-canvas-100"
-      style={{animationDuration: `${duration}s`}}
-      />
-    </div>
-  )
-}

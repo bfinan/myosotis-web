@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/src/styles/Home.module.css'
 import Link from 'next/link'
+import Timer from './tools/Timer'
 
 
 const inter = Inter({ subsets: ['latin'] })
