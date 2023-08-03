@@ -22,13 +22,13 @@ export default function Home() {
 
         <h1>Myosotis</h1>
 
-        <h2>PKM Services</h2>
-        <div className={styles.grid}>
-        <Link href="/services/research">Research</Link>
-          <Link href="/services/edit">Editing</Link>
-          <Link href="/services/forecast">Forecasting</Link>
-        </div>
 
+        <h2>PKM Web Tools</h2>
+
+        <div className={styles.grid}>
+          <Link href="/tools/pacer">Pacer</Link>
+          <Link href="/tools/intake">Intake</Link>
+        </div>
 
         <h2>Links</h2>
         <br></br>
@@ -45,11 +45,11 @@ export default function Home() {
         <h2><Link href="/wikibump">Wikibump</Link> </h2>
         </div>
 
-        <h2>PKM Web Tools</h2>
-
+        <h2>PKM Services</h2>
         <div className={styles.grid}>
-          <Link href="/tools/pacer">Pacer</Link>
-          <Link href="/tools/intake">Intake</Link>
+        <Link href="/services/research">Research</Link>
+          <Link href="/services/edit">Editing</Link>
+          <Link href="/services/forecast">Forecasting</Link>
         </div>
 
       </main>
