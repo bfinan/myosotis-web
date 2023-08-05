@@ -20,6 +20,7 @@ export default function WikibumpPage() {
       <h3>User: Brendan Finan</h3>
       <h2>
         <Link href="/"  >Back to home</Link> <br></br>
+        <BumpLink title="Niacin" wikititle='https://www.wikipedia.org/wiki/Niacin'></BumpLink>
         <BumpLink title="CSS" wikititle='https://www.wikipedia.org/wiki/CSS'></BumpLink>
         <BumpLink title="Running" wikititle='https://www.wikipedia.org/wiki/Running'></BumpLink>
         <BumpLink title="Boston Marathon" wikititle='https://www.wikipedia.org/wiki/Boston_Marathon'></BumpLink>
