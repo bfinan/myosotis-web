@@ -55,7 +55,7 @@ function Board() {
 
           <div>
           <br></br>
-          <iframe width="200" height="100" src="https://www.youtube.com/embed/T9lGlbTMOXg?start=4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+          <a href="https://react.dev/learn/tutorial-tic-tac-toe">REACT TIC TAC TOE</a>
           </div>
         </div>
         
