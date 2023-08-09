@@ -48,20 +48,6 @@
   display: table;
 }
 
-.status {
-  margin-bottom: 10px;
-}
-
-.grid { 
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 0px 0px;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    ". . .";
-}
 
 body {
   background-color: #0f0d17;
@@ -100,15 +86,27 @@ h3 {
 
 button {
   background-color: #cbf;
-  border: 1px solid #cbf;
+  border: 1px solid rgb(0, 0, 0);
   color: #000;
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
-  padding: 0.8rem;
+  padding: 0.9rem;
   align-items: center;
 }
 
 p {
   white-space: pre;
+}
+
+.square {
+  background-color: rgb(187, 255, 190);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 0px;
+  color: #000;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  padding: 0.9rem;
+  align-items: center;
 }

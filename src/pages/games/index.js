@@ -6,6 +6,7 @@ export default function FirstPost() {
       <h2>
         <Link href="/">Back to home</Link> <br></br>
         <Link href="/games/tic-tac-toe">Tic Tac Toe </Link>
+        <Link href="/games/guessing">Guessing</Link>
       </h2>
     </>
   );
